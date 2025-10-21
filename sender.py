@@ -2,7 +2,7 @@ from microbit import *
 import radio
 
 radio.on()
-radio.config(group=169)
+radio.config(group=101)
 
 controlling = False
 modus = 0
