@@ -27,3 +27,13 @@ I opted for a motion control design which has been fun so far.
 The sender displays the direction of the tilt and the receiver will use the received signals to adjust the servo for forward/backward thrust and turning (to be implement properly).
 
 Additionally i thought about implementing thrust as tilt control and Button A as left and Button B as right tomorrow with my teampartner.
+
+#### Day 2 - 21.10.25
+Spent a huge chunk of time on getting the servo to work.
+As i am writing in python and not using scratch, js or micropython i was stuck figuring out the pin layouts myself and had to trial and error my way through getting both motors and the servo to work.
+90 minutes before the deadline i managed to figure out that, despite all documentation, pin 8 is somehow the only pin working analog for the servo when you uflash from .py to the micro:bit.
+After that i spent some time finishing up on code and making the forward/backward speed dependend on the forward/backward tilt.
+
+The second mode with button controls was never used in the end.
+
+I had tons of fun!
